@@ -1,7 +1,14 @@
-<script setup>
-defineProps({
-  msg: 'Hello Vue-Vite'
-})
+<script>
+// defineProps({
+//   msg: 'Hello Vue-Vite'
+// })
+export default {
+  data() {
+    return {
+      msg: "Ciao Vue-Vite"
+    }
+  }
+}
 </script>
 
 <template>
